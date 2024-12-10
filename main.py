@@ -23,7 +23,7 @@ print(binary_nums)
 
 # selecting the version required
 def version(total_char):
-    char_capacity = len(binary_nums)*8
+    char_capacity = len(total_char)*8
     model = version_data['H']
     # print(model)
     for key, value in model.items():
