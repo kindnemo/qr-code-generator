@@ -1,6 +1,3 @@
-from correction import qr_code_numeric_capacity
-
-version_data = qr_code_numeric_capacity
 # Define the text
 text = str(input("Enter Text: "))
 
