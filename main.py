@@ -27,7 +27,7 @@ def version(total_char):
     model = version_data['H']
     # print(model)
     for key, value in model.items():
-        if char_capacity < value:
+        if char_capacity <= value:
             return key
 
 
