@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
-=======
 from correction import qr_code_binary_capacities
 
-version_data = qr_code_binary_capacities
->>>>>>> Stashed changes
+
 # Define the text
 text = str(input("Enter Text: "))
 
@@ -19,7 +16,7 @@ def decimal_to_binary(decimal_list):
     return binary_list
 
 binary_nums = decimal_to_binary(ascii_values)
-<<<<<<< Updated upstream
+
 print(binary_nums)
 =======
 print(binary_nums)
