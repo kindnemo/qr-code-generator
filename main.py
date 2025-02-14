@@ -1,6 +1,6 @@
 from correction import qr_code_binary_capacities as version_data
 from codeword import qr_code_data_codeword_capacities as codeword_capacity
-
+from polynomial import binary_to_polynomial
 
 # Define the text
 text = str(input("Enter Text: "))
@@ -111,3 +111,7 @@ def regroup_final_string(s, block_size=8):
 # Final list of Bytes
 final_bytes = regroup_final_string(final_string)
 print(final_bytes)
+
+#  Final list of polynomials
+polynomial_list = binary_to_polynomial(final_bytes)
+print(polynomial_list)
