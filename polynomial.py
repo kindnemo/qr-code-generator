@@ -3,7 +3,7 @@ def binary_to_polynomial(binary_list):
     polynomials = []
     for binary in binary_list:
         terms = []
-        degree = len(binary)-1
+        degree = len(binary) - 1
         for i, bit in enumerate(binary):
             if bit == '1':
                 if degree - i == 0:
